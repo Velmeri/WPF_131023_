@@ -1,0 +1,19 @@
+﻿<Window x:Class="WPF_131023_.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_131023_"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+
+    <Grid>
+        <StackPanel>
+            <Label Content="{DynamicResource NameLabel}"/>
+            <TextBox/>
+            <Label Content="{DynamicResource SurnameLabel}"/>
+            <TextBox/>
+            <Button Content="{DynamicResource ChangeLanguageButton}" Click="ChangeLanguage_Click" Height="27" Width="105"/>
+        </StackPanel>
+    </Grid>
+</Window>
